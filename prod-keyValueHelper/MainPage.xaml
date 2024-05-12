@@ -1,0 +1,41 @@
+﻿<Page x:Class="prod_keyValueHelper.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:prod_keyValueHelper"
+      mc:Ignorable="d"
+      Title="MainPage" Height="250" Width="450">
+    <Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="250">
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" FontFamily="Arial" FontSize="15" FontWeight="Bold" FontStyle="Normal">Введите ключ: </TextBlock>
+                <Border Grid.Column="1" CornerRadius="10" BorderBrush="Black" BorderThickness="1">
+                    <TextBox FontFamily="Arial" FontSize="15" FontWeight="Bold" FontStyle="Normal"
+                             BorderThickness="0" Padding="2" Name="TextValue"/>
+                </Border>
+            </Grid>
+
+            <Button Grid.Row="1" Margin="2 20 2 2" Content="Выбрать файл" Click="ButtonBase_OnClick" Width="150" Height="30">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="2" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </Grid>
+    </Grid>
+</Page>

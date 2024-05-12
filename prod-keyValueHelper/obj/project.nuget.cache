@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "HJiHQv61ipgvT38zJKly4sL2E6E8RgDsjBwJCYrpoUZnIi51XCfwOOf99OAUu/3peA40IigOKrncbXVOC4F4eg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aqu\\RiderProjects\\prod-keyValueHelper\\prod-keyValueHelper\\prod-keyValueHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aqu\\.nuget\\packages\\microsoft.data.sqlite\\9.0.0-preview.3.24172.4\\microsoft.data.sqlite.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0-preview.3.24172.4\\microsoft.data.sqlite.core.9.0.0-preview.3.24172.4.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.7\\sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.7\\sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.7\\sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\aqu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
